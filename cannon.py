@@ -70,9 +70,11 @@ def move():
 
     draw()
 
+    # Los balones que salen de la ventana regresan a la derecha.
     for target in targets:
         if not inside(target):
-            return
+            target.x = 200
+            target.y = randrange(-150, 150)
 
     ontimer(move, 50)
 
