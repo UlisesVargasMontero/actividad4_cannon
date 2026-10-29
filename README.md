@@ -8,3 +8,4 @@ Juego de cañon: se disparan proyectiles para reventar los balones azules antes 
 - Hay que reventar los balones antes de que lleguen al otro lado.
 
 ## Cambios realizados
+- Los balones que salen de la ventana se reposicionan y el juego nunca termina (Edgar).
